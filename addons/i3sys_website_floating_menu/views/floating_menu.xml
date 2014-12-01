@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+<template id="floating_menu" name="Floating Menu" inherit_id="website.layout" customize_show="True" groups="base.group_public">
+    <xpath expr="//div[@class='navbar navbar-default navbar-static-top']" position="attributes">
+        <attribute name="class">navbar navbar-default navbar-fixed-top</attribute>
+    </xpath>
+</template>
+
+</data>
+</openerp>
